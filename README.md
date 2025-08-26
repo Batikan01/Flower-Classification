@@ -22,5 +22,11 @@ Install requirements
 pip install -r requirements.txt
 python flower_model_train.py
 ```
+Data Set
+Total Images: 750
+Total Classes: 3
+
 Install Data Set
 https://drive.google.com/drive/folders/1K5R8qO5UUqrCNHuAA0VbntxpwrXylNke
+
+You can also use your own data set of these 3 type of flowers and test it yourself.
