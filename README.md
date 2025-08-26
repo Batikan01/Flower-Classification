@@ -21,3 +21,6 @@ Install requirements
 ```bash
 pip install -r requirements.txt
 python flower_model_train.py
+```
+Install Data Set
+https://drive.google.com/drive/folders/1K5R8qO5UUqrCNHuAA0VbntxpwrXylNke
