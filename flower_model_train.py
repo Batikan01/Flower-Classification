@@ -13,14 +13,14 @@ from tensorflow.keras import layers
 from tensorflow.keras.utils import load_img, img_to_array
 import json
 
-data_dir = "/content/drive/MyDrive/flowers_subset"
+data_dir = "/content/drive/MyDrive/flowers_dataset"
 img_height, img_width = 180, 180
 batch_size = 32
 
 train_ds = tf.keras.utils.image_dataset_from_directory(
     data_dir,
     validation_split=0.2,
-    subset="training",
+    dataset="training",
     seed=123,
     image_size=(img_height, img_width),
     batch_size=batch_size)
@@ -28,7 +28,7 @@ train_ds = tf.keras.utils.image_dataset_from_directory(
 val_ds = tf.keras.utils.image_dataset_from_directory(
     data_dir,
     validation_split=0.2,
-    subset="validation",
+    dataset="validation",
     seed=123,
     image_size=(img_height, img_width),
     batch_size=batch_size)
