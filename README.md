@@ -14,8 +14,6 @@ How to Run:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/Flower-Classification.git
-cd Flower-Classification```
-
+cd Flower-Classification
+```
 ```bash
-pip install -r requirements.txt
-python Flower_Classification.py
