@@ -12,8 +12,12 @@ Demo Results:
 
 How to Run:
 
+Clone this repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/Flower-Classification.git
-cd Flower-Classification
+git clone https://github.com/Batikan01/Flower-Classification.git "flower_model_train"
+cd "flower_model_train"
 ```
+Install requirements
 ```bash
+pip install -r requirements.txt
+python flower_model_train.py
